@@ -1,4 +1,4 @@
-Web Creators Final Project
+Intro HTML Final Project
 
 You are to create a website for the (fictional) hotel: "Casa Ybel Island Hotel".
 You may use the images provided and/or include your own. Remember to resize images 
