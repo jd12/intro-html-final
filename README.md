@@ -7,23 +7,15 @@ Begin by cloning the provided project and importing it into your workspace.
 
 After cloning this repository you want to run these commands
 
-```
-cp pre-commit .git/hooks
-chmod +x .git/hooks/pre-commit
-```
-
-These commands set up your repository so you don't accidentally commit to the master branch.
-
 `git checkout -b development`
 
 This will create a branch named development and switch you to it. The development branch is where you will make all your commits.
 
 ```
-cp git-commit-template.txt ~/.git-commit-template.txt
-git config --global commit.template ~/.git-commit-template.txt
+git push -u origin development
 ```
 
-This will set up your commit template to automatically bring up the file to remind you of the format you want.
+This will push your development branch up to Github. Don't forget to make a pull request after you've made your first commit.
 
 ## Create Website
 
